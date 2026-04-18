@@ -1,4 +1,4 @@
-﻿namespace Questao5.Application.Commands.Requests
+﻿namespace SoContaCorrente.Application.Commands.Requests
 {
     [Serializable]
     public class CriarMovimentoRequest

@@ -1,12 +1,12 @@
 using IdempotentAPI.Filters;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Questao5.Application.Commands;
-using Questao5.Application.Commands.Requests;
-using Questao5.Application.Queries;
-using Questao5.Application.Queries.Responses;
+using SoContaCorrente.Application.Commands;
+using SoContaCorrente.Application.Commands.Requests;
+using SoContaCorrente.Application.Queries;
+using SoContaCorrente.Application.Queries.Responses;
 
-namespace Questao5.Infrastructure.Services.Controllers
+namespace SoContaCorrente.Infrastructure.Services.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]

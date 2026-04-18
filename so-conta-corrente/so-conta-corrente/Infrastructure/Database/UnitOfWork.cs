@@ -1,7 +1,7 @@
 ﻿using System.Data;
-using Questao5.Application.Abstractions;
+using SoContaCorrente.Application.Abstractions;
 
-namespace Questao5.Infrastructure.Database
+namespace SoContaCorrente.Infrastructure.Database
 {
     public sealed class UnitOfWork : IUnitOfWork
     {

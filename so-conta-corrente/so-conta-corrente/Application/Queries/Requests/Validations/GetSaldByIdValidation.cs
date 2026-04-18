@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using Questao5.Application.Abstractions;
+using SoContaCorrente.Application.Abstractions;
 
-namespace Questao5.Application.Queries.Requests.Validations
+namespace SoContaCorrente.Application.Queries.Requests.Validations
 {
     public class GetSaldByIdValidation : AbstractValidator<GetSaldoByIdQuery>
     {

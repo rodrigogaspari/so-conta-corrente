@@ -1,10 +1,10 @@
 ﻿using Microsoft.Data.Sqlite;
-using Questao5.Infrastructure.Sqlite;
+using SoContaCorrente.Infrastructure.Sqlite;
 using System;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Questao5.Infrastructure.Database
+namespace SoContaCorrente.Infrastructure.Database
 {
     public sealed class DbSession : IDisposable
     {

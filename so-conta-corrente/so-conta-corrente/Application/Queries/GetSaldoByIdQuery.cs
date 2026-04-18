@@ -1,7 +1,7 @@
 ﻿using MediatR;
-using Questao5.Application.Queries.Responses;
+using SoContaCorrente.Application.Queries.Responses;
 
-namespace Questao5.Application.Queries
+namespace SoContaCorrente.Application.Queries
 {
     public record GetSaldoByIdQuery(string? IdContaCorrente) : IRequest<ConsultaSaldoResponse>;
 }

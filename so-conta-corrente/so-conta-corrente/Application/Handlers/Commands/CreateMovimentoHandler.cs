@@ -1,9 +1,9 @@
 ﻿using MediatR;
-using Questao5.Application.Abstractions;
-using Questao5.Application.Commands;
-using Questao5.Infrastructure.Database.Repository;
+using SoContaCorrente.Application.Abstractions;
+using SoContaCorrente.Application.Commands;
+using SoContaCorrente.Infrastructure.Database.Repository;
 
-namespace Questao5.Application.Handlers.Commands
+namespace SoContaCorrente.Application.Handlers.Commands
 {
     public class CreateMovimentoHandler : IRequestHandler<CreateMovimentoCommand>
     {

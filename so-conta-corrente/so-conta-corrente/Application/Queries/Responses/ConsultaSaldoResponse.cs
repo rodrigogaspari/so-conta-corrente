@@ -1,4 +1,4 @@
-﻿namespace Questao5.Application.Queries.Responses
+﻿namespace SoContaCorrente.Application.Queries.Responses
 {
     public class ConsultaSaldoResponse
     {

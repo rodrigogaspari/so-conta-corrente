@@ -1,4 +1,4 @@
-﻿namespace Questao5.Application.Abstractions.Model
+﻿namespace SoContaCorrente.Application.Abstractions.Model
 {
     public interface IMovimentoModel
     {

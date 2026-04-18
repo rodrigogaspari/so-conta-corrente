@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Questao5.Application.Commands
+namespace SoContaCorrente.Application.Commands
 {
     public record CreateMovimentoCommand(string? IdContaCorrente, string? TipoMovimento, decimal? Valor) : IRequest;
 }

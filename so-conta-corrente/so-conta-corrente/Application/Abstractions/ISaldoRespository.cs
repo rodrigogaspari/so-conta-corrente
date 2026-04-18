@@ -1,6 +1,6 @@
-﻿using Questao5.Application.Queries.Responses;
+﻿using SoContaCorrente.Application.Queries.Responses;
 
-namespace Questao5.Application.Abstractions
+namespace SoContaCorrente.Application.Abstractions
 {
     public interface ISaldoRepository
     {

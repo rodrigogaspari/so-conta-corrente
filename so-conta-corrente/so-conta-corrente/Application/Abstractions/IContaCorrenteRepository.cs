@@ -1,4 +1,4 @@
-﻿namespace Questao5.Application.Abstractions
+﻿namespace SoContaCorrente.Application.Abstractions
 {
     public interface IContaCorrenteRepository
     {

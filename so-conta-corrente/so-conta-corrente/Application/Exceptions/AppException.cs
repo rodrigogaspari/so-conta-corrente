@@ -1,4 +1,4 @@
-﻿namespace Questao5.Application.Exceptions
+﻿namespace SoContaCorrente.Application.Exceptions
 {
     public class AppException(IList<string> errors) : Exception(string.Join(", ", errors))
     {

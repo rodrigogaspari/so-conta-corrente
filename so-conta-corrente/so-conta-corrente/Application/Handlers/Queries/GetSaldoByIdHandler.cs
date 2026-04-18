@@ -1,9 +1,9 @@
 ﻿using MediatR;
-using Questao5.Application.Abstractions;
-using Questao5.Application.Queries;
-using Questao5.Application.Queries.Responses;
+using SoContaCorrente.Application.Abstractions;
+using SoContaCorrente.Application.Queries;
+using SoContaCorrente.Application.Queries.Responses;
 
-namespace Questao5.Application.Handlers.Queries
+namespace SoContaCorrente.Application.Handlers.Queries
 {
     public class GetSaldoByIdHandler : IRequestHandler<GetSaldoByIdQuery, ConsultaSaldoResponse>
     {

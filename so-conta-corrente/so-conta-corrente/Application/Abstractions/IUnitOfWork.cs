@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Questao5.Application.Abstractions
+namespace SoContaCorrente.Application.Abstractions
 {
     public interface IUnitOfWork : IDisposable
     {

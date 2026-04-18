@@ -1,7 +1,7 @@
 ﻿using Dapper;
-using Questao5.Application.Abstractions;
+using SoContaCorrente.Application.Abstractions;
 
-namespace Questao5.Infrastructure.Database.Repository
+namespace SoContaCorrente.Infrastructure.Database.Repository
 {
     public class ContaCorrenteRepository : IContaCorrenteRepository
     {

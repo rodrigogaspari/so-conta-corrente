@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using Questao5.Application.Abstractions;
-using Questao5.Application.Commands;
+using SoContaCorrente.Application.Abstractions;
+using SoContaCorrente.Application.Commands;
 
-namespace Questao5.Application.Queries.Requests.Validations
+namespace SoContaCorrente.Application.Queries.Requests.Validations
 {
     public class CriarMovimentoValidation : AbstractValidator<CreateMovimentoCommand>
     {

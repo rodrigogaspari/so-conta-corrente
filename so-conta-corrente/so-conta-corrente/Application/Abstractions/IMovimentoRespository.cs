@@ -1,6 +1,6 @@
-﻿using Questao5.Application.Abstractions.Model;
+﻿using SoContaCorrente.Application.Abstractions.Model;
 
-namespace Questao5.Application.Abstractions
+namespace SoContaCorrente.Application.Abstractions
 {
     public interface IMovimentoRepository
     {

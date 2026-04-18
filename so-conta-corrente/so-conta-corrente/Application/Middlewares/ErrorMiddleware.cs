@@ -1,8 +1,8 @@
-using Questao5.Application.Exceptions;
+using SoContaCorrente.Application.Exceptions;
 using System.Net;
 using System.Text.Json;
 
-namespace Questao5.Application.Middlewares;
+namespace SoContaCorrente.Application.Middlewares;
 
 public class ErrorMiddleware(RequestDelegate next)
 {

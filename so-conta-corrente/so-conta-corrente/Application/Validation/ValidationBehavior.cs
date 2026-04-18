@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 using MediatR;
-using Questao5.Application.Exceptions;
+using SoContaCorrente.Application.Exceptions;
 
-namespace Questao5.Application.Validation
+namespace SoContaCorrente.Application.Validation
 {
 
     public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IBaseRequest

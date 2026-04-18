@@ -1,8 +1,8 @@
 ﻿using Dapper;
-using Questao5.Application.Abstractions;
-using Questao5.Application.Abstractions.Model;
+using SoContaCorrente.Application.Abstractions;
+using SoContaCorrente.Application.Abstractions.Model;
 
-namespace Questao5.Infrastructure.Database.Repository
+namespace SoContaCorrente.Infrastructure.Database.Repository
 {
     public class MovimentoRepository : IMovimentoRepository
     {

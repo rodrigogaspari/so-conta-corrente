@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Questao5": {
+    "SoContaCorrente": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

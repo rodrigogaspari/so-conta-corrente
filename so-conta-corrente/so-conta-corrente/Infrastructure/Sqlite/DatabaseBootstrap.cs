@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using Microsoft.Data.Sqlite;
 
-namespace Questao5.Infrastructure.Sqlite
+namespace SoContaCorrente.Infrastructure.Sqlite
 {
     public class DatabaseBootstrap : IDatabaseBootstrap
     {

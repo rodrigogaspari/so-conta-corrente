@@ -1,11 +1,11 @@
 ﻿using Microsoft.OpenApi.Models;
 using System.Reflection;
 
-namespace Questao5.Application.SwaggerGen
+namespace SoContaCorrente.Application.SwaggerGen
 {
     public static class Questao5SwaggerGenExtensions
     {
-        public static IServiceCollection AddSwaggerAilosCustomizations(this IServiceCollection services)
+        public static IServiceCollection AddSwaggerSoContaCorrenteCustomizations(this IServiceCollection services)
         {
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
@@ -20,8 +20,8 @@ namespace Questao5.Application.SwaggerGen
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Ailos Teste Questão 5 - Baking API",
-                    Description = "Uma Web API ASP.NET Core para desenvolvimento de testes de candidato",
+                    Title = "Smart Online - Conta Corrente Baking API",
+                    Description = "Uma Web API ASP.NET Core para apresentação",
                 });
 
                 // using System.Reflection;
@@ -32,7 +32,7 @@ namespace Questao5.Application.SwaggerGen
             return services;
         }
 
-        public static WebApplication AddSwaggerAilosCustomizations(this WebApplication app) 
+        public static WebApplication AddSwaggerSoContaCorrenteCustomizations(this WebApplication app) 
         {
             if (app.Environment.IsDevelopment())
             {
