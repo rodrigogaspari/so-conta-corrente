@@ -9,7 +9,7 @@ using SoContaCorrente.Application.Queries.Responses;
 namespace SoContaCorrente.Infrastructure.Services.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/contacorrente")]
     public class ContaCorrenteController : ControllerBase
     {
         private readonly IMediator _mediator;
