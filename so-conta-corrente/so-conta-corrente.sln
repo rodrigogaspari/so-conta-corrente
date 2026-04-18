@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "so-conta-corrente", "so-conta-corrente\so-conta-corrente.csproj", "{0E611EF8-BE1C-4D03-B507-4AF747ADEF41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "so-conta-corrente.IntegrationTests", "so-conta-corrente.IntegrationTests\so-conta-corrente.IntegrationTests.csproj", "{CA23CDFD-0D0D-6290-761E-8C1B64D2B6D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0E611EF8-BE1C-4D03-B507-4AF747ADEF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E611EF8-BE1C-4D03-B507-4AF747ADEF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E611EF8-BE1C-4D03-B507-4AF747ADEF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA23CDFD-0D0D-6290-761E-8C1B64D2B6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA23CDFD-0D0D-6290-761E-8C1B64D2B6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA23CDFD-0D0D-6290-761E-8C1B64D2B6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA23CDFD-0D0D-6290-761E-8C1B64D2B6D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

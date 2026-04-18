@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace SoContaCorrente.Application.SwaggerGen
 {
-    public static class Questao5SwaggerGenExtensions
+    public static class SoContaCorrenteSwaggerGenExtensions
     {
         public static IServiceCollection AddSwaggerSoContaCorrenteCustomizations(this IServiceCollection services)
         {
